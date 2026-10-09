@@ -1,23 +1,10 @@
-# Karl-Bot
+# Dead end: don't store anything here
 
-Karl's assistant knowledge base. It currently covers plant care: which plants Karl has, how each one is doing, what has been tried, and how Karl likes problems handled.
+This repository is not part of Karl's setup, and it's due to be deleted. Karl's record and projects live in **AI sandbox**, a folder in Karl's Google Drive.
 
-## How to use this repo
+Any session that starts here should:
 
-- Read `preferences.md` first. Karl's standing preferences override generic advice.
-- For a plant question, find the plant in `plants/README.md` and read its file before answering. Check its log for what has already been tried and which checks are due.
-- Reusable know-how (pests, diseases, care) lives in `guides/`. Link to it from plant files instead of repeating it.
+1. Find `AI sandbox` with the Google Drive connector and read its `CLAUDE.md` and `Start here`. Follow those rules: propose changes, then write only after Karl says yes.
+2. Write nothing to this repository: no commits, branches or notes.
 
-## Keeping it current
-
-At the end of any session that involves a plant:
-
-- add a dated entry to the top of that plant's **Log**: what was seen, what was done, and the outcome
-- update its **Status** and **Next checks**
-- add any new plant to `plants/README.md`
-- put anything that applies beyond one plant in `guides/` or `preferences.md`
-
-## Rules
-
-- This repository is public. Don't commit photos, location, contact details or other personal information. Describe what a photo showed in words instead.
-- Write dates as YYYY-MM-DD.
+The details of why this repo exists are in `AI sandbox/AI operations/Claude Code handoff 2026-10-10 (fern).md`.
